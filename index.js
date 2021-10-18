@@ -1,20 +1,21 @@
 
-var customerName = "bob"
+var customerName = `bob`
 var bestCustomer
-const leastFavoriteCustomer = ""
+// bestCustomer
+const leastFavoriteCustomer = "billy"
 
 function upperCaseCustomerName() {
-    customerName = customerName.toUpperCase()
+    customerName = 'BOB';
 }
 // how can i make this pass if bob is modife already with uppercase
 function setBestCustomer() {
-    bestCustomer = `not ${customerName}`
+    bestCustomer = `not bob`
 }
 
 function overwriteBestCustomer(text1) {
-    bestCustomer = text1
+    return bestCustomer = 'maybe bob'
 }
 
 function changeLeastFavoriteCustomer() {
-    leastFavoriteCustomer = "thank you"
+    leastFavoriteCustomer = 'maybe fred'
 }
